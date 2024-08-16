@@ -12,7 +12,7 @@ This dataset consists of reviews of fine foods from amazon. The data span a peri
 
 Amazon reviews are often the most publicly visible reviews of consumer products. As a frequent Amazon user, I was interested in examining the structure of a large database of Amazon reviews and visualizing this information so as to be a smarter consumer and reviewer.
 
-[Source:]( https://www.kaggle.com/snap/amazon-fine-food-reviews)
+[Source: kaggle]( https://www.kaggle.com/snap/amazon-fine-food-reviews)
 
 ### Introduction
 
