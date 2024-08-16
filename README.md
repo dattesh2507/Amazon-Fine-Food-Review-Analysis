@@ -97,4 +97,7 @@ Sentiment analysis is an effective tool for gauging customer opinions.
 
 ![image](https://github.com/user-attachments/assets/b4ae0453-ba91-49c1-8702-88826111775c)
 
+![image](https://github.com/user-attachments/assets/1f80d73e-36ea-40be-8df7-c940d241faa4)  ![image](https://github.com/user-attachments/assets/6af9d89e-8faa-498e-98b8-da28b9663884)
+
+
 
