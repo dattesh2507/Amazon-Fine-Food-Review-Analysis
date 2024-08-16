@@ -52,12 +52,15 @@ Exploratory Data Analysis (EDA):
 Distribution of ratings across reviews.
 Visualization of common words in positive and negative reviews using word clouds.
 
+
 **Model Training:**
 The dataset is split into training and test sets (70:30 ratio). Several models are trained including:
 Support Vector Machine (SVM)
 
+
 **Model Evaluation:**
 Performance is measured using metrics like accuracy, precision, recall, and F1-score. Confusion matrices are used to analyze the performance further.
+
 
 **Exploratory Data Analysis**
 Key insights from the dataset include:
@@ -66,17 +69,21 @@ Imbalance: A large proportion (64%) of the reviews are 5-star ratings.
 Skewed Distribution: The majority of reviews are positive, which skews the dataset.
 Visualizations, including word clouds, are used to highlight common words in positive and negative reviews.
 
+
 **Modeling**
 The models used in this analysis include:
 Support Vector Machine (SVM)
 The text data is converted into vectors using TF-IDF Vectorizer, and models are trained to classify the sentiment of the reviews.
 
+
 **Results**
 Accuracy: The best performing model achieved an accuracy of 67% .
 The SVM classifier performed best in this case, based on a combination of accuracy, precision, recall, and F1-score.
 
+
 **Conclusion**
 This project demonstrates the use of sentiment analysis to classify reviews as positive, neutral, or negative using NLP and machine learning techniques. Business insights derived from this analysis can help companies like Amazon to improve customer satisfaction by understanding their feedback more effectively.
+
 
 **Key Takeaways:**
 The dataset is highly imbalanced, with a skew towards positive reviews.
