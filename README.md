@@ -58,4 +58,4 @@ Logistic Regression doesn’t care whether the instances are close to the decisi
 
 The support vector machine works by finding an optimal separation line called a ‘hyperplane’ to accurately separate 2 or more different classes in a classification problem. The goal is to find the optimal hyperplane separation through training the linearly separable data with the SVM algorithm.
 
-To Know detailed information about Support Vector Machines and implementation  please visit my [Scikit-learn web](https://scikit-learn.org/stable/modules/svm.html)
+To Know detailed information about Support Vector Machines and implementation  please visit [Scikit-learn web](https://scikit-learn.org/stable/modules/svm.html)
