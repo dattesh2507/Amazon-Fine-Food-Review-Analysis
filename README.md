@@ -88,3 +88,8 @@ This project demonstrates the use of sentiment analysis to classify reviews as p
 **Key Takeaways:**
 The dataset is highly imbalanced, with a skew towards positive reviews.
 Sentiment analysis is an effective tool for gauging customer opinions.
+
+
+
+![image](https://github.com/user-attachments/assets/e7b37372-3caa-4fd6-b8c5-8fcdec641834)
+
