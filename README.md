@@ -36,26 +36,48 @@ The Amazon Fine Food Reviews dataset consists of reviews of fine foods from Amaz
 10. Text — text of the review
 
 ## Objective
-Given a review, determine whether the review is positive (Rating of 4 or 5) or negative (rating of 1 or 2).
+The main objective of this project is to build a machine learning model that can accurately classify customer sentiment using Natural Language Processing techniques. The best classifier will be selected based on metrics such as F1-score and accuracy.
 
-[Q] How to determine if a review is positive or negative?
+## Methodology
+**Data Collection & Cleaning:**
+The dataset is loaded and cleaned to remove irrelevant, duplicated, or improperly formatted data.
 
-[Ans] We could use the Score/Rating. A rating of 4 or 5 could be cosnidered a positive review. A review of 1 or 2 could be considered negative. A review of 3 is nuetral and ignored. This is an approximate and proxy way of determining the polarity (positivity/negativity) of a review.
+**Text Preprocessing:**
 
+Tokenization: Splitting the review text into individual words.
+Stop Words Removal: Removing common words that do not carry significant meaning.
+TF-IDF Vectorization: Converting text into numerical features using the Term Frequency-Inverse Document Frequency method.
+Exploratory Data Analysis (EDA):
 
+Distribution of ratings across reviews.
+Visualization of common words in positive and negative reviews using word clouds.
 
+**Model Training:**
+The dataset is split into training and test sets (70:30 ratio). Several models are trained including:
+Support Vector Machine (SVM)
 
-##  Apply Support_Vector_Machines to Amazon_Food_Reviews_Dataset
+**Model Evaluation:**
+Performance is measured using metrics like accuracy, precision, recall, and F1-score. Confusion matrices are used to analyze the performance further.
 
-![svm](https://www.learnopencv.com/wp-content/uploads/2018/07/support-vector-machine-cover.jpg)
+**Exploratory Data Analysis**
+Key insights from the dataset include:
 
+Imbalance: A large proportion (64%) of the reviews are 5-star ratings.
+Skewed Distribution: The majority of reviews are positive, which skews the dataset.
+Visualizations, including word clouds, are used to highlight common words in positive and negative reviews.
 
-- Review text, preprocessed one converted into vectors using (TFIDF)
+**Modeling**
+The models used in this analysis include:
+Support Vector Machine (SVM)
+The text data is converted into vectors using TF-IDF Vectorizer, and models are trained to classify the sentiment of the reviews.
 
-SVM is a supervised Machine Learning algorithm that is used in many classifications and regression problems. It still presents as one of the most used robust prediction methods that can be applied to many use cases involving classifications.
+**Results**
+Accuracy: The best performing model achieved an accuracy of 67% .
+The SVM classifier performed best in this case, based on a combination of accuracy, precision, recall, and F1-score.
 
-Logistic Regression doesn’t care whether the instances are close to the decision boundary. Therefore, the decision boundary it picks may not be optimal. If a point is far from the decision boundary, we may be more confident in our predictions.Therefore, the optimal decision boundary should be able to maximize the distance between the decision boundary and all instances. i.e., maximize the margins. That’s why the SVMs algorithm is important!Find a Hyperplane that separates Positive points from Negative points as wide as possible.
+**Conclusion**
+This project demonstrates the use of sentiment analysis to classify reviews as positive, neutral, or negative using NLP and machine learning techniques. Business insights derived from this analysis can help companies like Amazon to improve customer satisfaction by understanding their feedback more effectively.
 
-The support vector machine works by finding an optimal separation line called a ‘hyperplane’ to accurately separate 2 or more different classes in a classification problem. The goal is to find the optimal hyperplane separation through training the linearly separable data with the SVM algorithm.
-
-To Know detailed information about Support Vector Machines and implementation  please visit [Scikit-learn web](https://scikit-learn.org/stable/modules/svm.html)
+**Key Takeaways:**
+The dataset is highly imbalanced, with a skew towards positive reviews.
+Sentiment analysis is an effective tool for gauging customer opinions.
